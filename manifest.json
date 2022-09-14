@@ -1,0 +1,13 @@
+{
+  "name": "Portal",
+  "id": "1146293523224956955",
+  "api": "1.0.0",
+  "editorType": [
+    "figma",
+    "figjam"
+  ],
+  "permissions": [],
+  "containsWidget": true,
+  "main": "dist/code.js",
+  "widgetApi": "1.0.0"
+}
