@@ -1,1 +1,21 @@
-(()=>{var{widget:e}=figma,{AutoLayout:c,Ellipse:g,Frame:i,Image:t,Rectangle:r,SVG:o,Text:h}=e;function a(){return figma.widget.h(i,{name:"Portal",overflow:"visible",width:750,height:638},figma.widget.h(t,{name:"portal",width:750,height:638,src:"https://media0.giphy.com/media/Yo2fMrTG6dgLdiKX2z/giphy.gif?cid=6c09b952e5904e2cb904fa584699bc3c07cac13e42e86f3b&rid=giphy.gif&ct=s"}))}e.register(a);})();
+(() => {
+  // widget-src/code.tsx
+  var { widget } = figma;
+  var { AutoLayout, Ellipse, Frame, Image, Rectangle, SVG, Text } = widget;
+  function Portal() {
+    return /* @__PURE__ */ figma.widget.h(Frame, {
+      name: "Portal",
+      fill: "#FFF",
+      width: 639,
+      height: 596
+    }, /* @__PURE__ */ figma.widget.h(Ellipse, {
+      name: "Ellipse 1",
+      x: 140,
+      y: 118,
+      fill: "#D21E1E",
+      width: 359,
+      height: 359
+    }));
+  }
+  widget.register(Portal);
+})();
